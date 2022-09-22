@@ -12,40 +12,39 @@ registro historia
 <table>
 <tr>
 <td>Nombre</td>
-<td><input type="text" id="nombre" name="user_nombre"></td>
+<td><input/></td>
 </tr>
 <tr>
 <td>Documento</td>
-<td><input type="text" id="documento" name="user_documento"></td>></td>
+<td><input/></td>
 </tr>
-<td>Fecha</td>
-<td><input  type="date" id="fecha" name="user_fecha"></td></td>
+<td>Fecha </td>
+<td><input/></td>
 </tr>
 <td>Consultorio</td>
-<td><input type="text" id="consultorio" name="user_consultorio"></td>
+<td><input/></td>
 </tr>
 <tr>
 <td>Medico</td>
-<td><input type="text" id="medico" name="user_medico"></td>
+<td><input/></td>
 </tr>
 <tr>
 <td>Genero</td>
-<td><input type="text" id="genero" name="user_genero" ></td>
+<td><input/></td>
 </tr>
 <tr>
 <td>Fecha de Nacimiento</td>
-<td><input type="date" id="fechaNacimiento" name="user_fechaNacimiento"></td>
+<td><input/></td>
 </tr>
 <tr>
 <td>Diagnostico</td>
-<td><input type="text" id="diagnostico" name="user_diagnostico></td>
+<td><input/></td>
 </tr>
 <tr>
-<td>Edad</td>
-<td><input type="text" id="edad" name="user_edad/></td>
+<td>Edad</td><
+<td><input/></td>
 </tr>
 <tr>
 <td><button>aceptar</button>
-</tr>
-</table>
+
 
