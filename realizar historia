@@ -12,39 +12,39 @@ registro historia
 <table>
 <tr>
 <td>Nombre</td>
-<td><input/></td>
+<td><input type="text" name="Nombre" id="Nombre" required style="clear:both"/></td>
 </tr>
 <tr>
 <td>Documento</td>
-<td><input/></td>
+<td><input type="text" name="Documento" id="Documento" required style="clear:both"/></td></td>
 </tr>
 <td>Fecha </td>
-<td><input/></td>
+<td><input type="date" name="Fecha" id="Fecha" required style="clear:both"/></td></td>
 </tr>
 <td>Consultorio</td>
-<td><input/></td>
+<td><input type="text" name="Consultorio" id="Consultorio" required style="clear:both"/></td></td>
 </tr>
 <tr>
 <td>Medico</td>
-<td><input/></td>
+<td><input type="text" name="Medico" id="Medico" required style="clear:both"/></td></td>
 </tr>
 <tr>
 <td>Genero</td>
-<td><input/></td>
+<td><input type="text" name="Genero" id="Genero" required style="clear:both"/></td></td>
 </tr>
 <tr>
 <td>Fecha de Nacimiento</td>
-<td><input/></td>
+<td><input type="date" name="FechaNacimiento" id="FechaNacimiento" required style="clear:both"/></td></td>
 </tr>
 <tr>
 <td>Diagnostico</td>
-<td><input/></td>
+<td><input type="text" name="Diagnostico" id="Diagnostico" required style="clear:both"/></td></td>
 </tr>
 <tr>
 <td>Edad</td><
-<td><input/></td>
+<td><input type="text" name="Edad" id="Edad" required style="clear:both"/></tr></td>
 </tr>
 <tr>
-<td><button>aceptar</button>
+<td  colspan="2" align="center"><input type="submit" style="width:100px; height:30px;" name="enviar"id="enviar" value="Aceptar"/></td>
 </table>
 
