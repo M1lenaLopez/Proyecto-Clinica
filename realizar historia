@@ -19,7 +19,7 @@ registro historia
 <td><input type="text" id="documento" name="user_documento"></td>></td>
 </tr>
 <td>Fecha</td>
-<td><input  type="text" id="fecha" name="user_fecha"></td></td>
+<td><input  type="date" id="fecha" name="user_fecha"></td></td>
 </tr>
 <td>Consultorio</td>
 <td><input type="text" id="consultorio" name="user_consultorio"></td>
@@ -41,10 +41,11 @@ registro historia
 <td><input type="text" id="diagnostico" name="user_diagnostico></td>
 </tr>
 <tr>
-<td>Edad</td><
-<td><inputinput type="text" id="edad" name="user_edad></td>
+<td>Edad</td>
+<td><input type="text" id="edad" name="user_edad/></td>
 </tr>
 <tr>
-<td><button type="submit">aceptar</button>
+<td><button>aceptar</button>
+</tr>
 </table>
 
