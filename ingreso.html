@@ -1,12 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Autenticación</title>
+
+    <link rel="stylesheet" href="/css/ingreso.css">
 </head>
 <body>
+
+<h2>FORMULARIO DE REGISTRO</h2>
+
+<h2 class="info">Informacion Personal</h2>
+<form >
     
+    <div class="arreglo">
+        <label > Nombres</label> 
+        <input type="text" > 
+    </div>
+
+    <div class="arreglo">
+        <label > Apellidos</label> 
+        <input type="text" >
+    </div> 
+    <div class="arreglo">
+        <label  for="">Tipo de documento</label> 
+        <input list="documento" name="documento" /></label>
+        <datalist id="documento">
+        <option value="Registro civil">
+        <option value="Targeta de Identidad">
+        <option value="Cedula">
+        <option value="Pasaporte">
+        </datalist>
+    </div>
+        
+    <div class="arreglo" >
+        <label class  for="">Numero de Identificacion</label>
+        <input type="text">
+    </div>
+
+    <div class="arreglo ">
+        <label  >Fecha de nacimiento</label> 
+        <input  class ="dato" type="date">
+    </div>
+
+    <div class="arreglo">
+        <label for="">correo electronico</label>
+        <input type="email">
+    </div>
+    <div class="arreglo">
+        <label for="">Telefono</label>
+        <input type="text">
+    </div>
+</form>
+
+ 
+        <h2>Datos de importancia</h2>
+<form >
+    
+        <div class="genero1 ">
+        <label  for="">Genero</label><br>
+        <input type="radio"/>Masculino</label><br>
+        <input type="radio"/>Femenino</label>
+        </div>
+</form>
+
+<form>
+
+    <div class="genero2">
+
+        <label  for="">Tipo de sangre</label> <br>
+        <input list="sangre" name="sangre" /></label>
+        <datalist id="sangre">
+        <option value="A-">
+        <option value="0+">
+        <option value="0-">
+        <option value="AB">
+        </datalist>
+    </div>
+</form>
+<form>
+    <div class="genero3">
+        <label  for="">Reaccion Algun medicamento</label><br>
+        <input type="radio" />Si</label><br>
+        <input type="radio" />No</label>
+    </div>
+    
+</form>
+<h2> Datos de Residencia</h2>
+
+<form >
+     <div class="arreglo">
+        <label for="">Departamento</label> 
+        <input list="departamento" name="departamento" /></label>
+        <datalist id="departamento">
+        <option value="Antioquia">
+        <option value="Quindio">
+        <option value="Nariño">
+        <option value="cauca">
+        </datalist>
+        </div>
+
+        <div class="arreglo">
+        <label for="">Municipio</label> 
+        <input list="ciudad" name="ciudad" /></label>
+        <datalist id="ciudad">
+        <option value="itagui">
+        <option value="Rio negro">
+        <option value="Leiva">
+        <option value="caldas">
+        </datalist>
+       </div>
+
+    <div class="arreglo">
+        <label  for="">ciudad</label>
+        <input type="text" id="ciudad"/></label>
+    </div>
+    <div class="arreglo">
+        <label for="">Direccion</label>
+        <input type="text" id="ciudad"/></label>
+    </div>
+</form>
+
+
+<input type="submit"></input>
+
+
 </body>
-</html> 
+</html>
