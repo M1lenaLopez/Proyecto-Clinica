@@ -9,54 +9,37 @@
 </head>
 <body>
     <img src="/img/Logo.PNG" alt="" width="50%" height="50%">
-    <div class="mision">
-    <fieldset>
-    <legend>MISION</legend>
-        <P>Satisfacer de manera eficiente las necesidades del cuidado de la salud de nuestros pacientes. 
-            Brindar a todos nuestros pacientes la mejor atención medica basada en un alto contenido ético.
-            Garantizar la revisión y actualización de los conocimientos, procesos, tecnologías y estructuras,
-             gestionando nuestros recursos con racionalidad económica de forma trasparente y honesta.
-            </P>
-    </fieldset><br>
+    <form action="/vistas/Autenticación" method="get">
+        <input type="submit" value="Ingresar" class="button" id="ingresar">
+    <div class="contenedor">
+        <img src="/img/imagen (1).jpg" alt="" width="50%" height="50%" id="imagen1">
 
-    <fieldset>
-    <legend>VISION</legend>
-            <P>Crear y sostener un sistema integral de salud, que ofrezca un espacio de crecimiento y desarrollo
-               profesional enfocado en la excelencia y calidez en la asistencia al paciente y su familia.</P>
-    </fieldset><br> 
+        <div class="misionyVision">
+            <fieldset>
+                <legend class="mision">MISION</legend>
+                    <P id="mision"> Satisfacer de manera eficiente las necesidades del 
+                        cuidado de la salud de nuestros pacientes. 
+                        Brindar a todos nuestros pacientes la mejor atención medica basada en un alto contenido ético.
+                        Garantizar la revisión y actualización de los conocimientos, procesos, tecnologías y estructuras,
+                         gestionando nuestros recursos con racionalidad económica de forma trasparente y honesta.
+                        </P>
+            </fieldset><br><br>
+            <fieldset>
+                <legend>VISION</legend>
+                        <P id="vision">Crear y sostener un sistema integral de salud, que ofrezca un espacio de crecimiento y desarrollo
+                           profesional enfocado en la excelencia y calidez en la asistencia al paciente y su familia.</P>
+            </fieldset><br> 
+
+
 </div>
-    <fieldset>
-    <form class="formulario ">
-    
-        <h1>Inicio Sesion</h1>
-         <div class="contenedor">
-         
-         
-             
-             <div class="input-contenedor">
-             <i class="fas fa-envelope icon"></i>
-             <input type="text" placeholder="Correo Electronico">
-             
-             </div>
-             
-             <div class="input-contenedor">
-            <i class="fas fa-key icon"></i>
-             <input type="password" placeholder="Contraseña">
-             
-             </div>
-             <input type="submit" value="Iniciar Sesion" class="button">
-             <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
-             <p>¿No tienes una cuenta? <a class="link" href="registro.html">Registrate </a></p>
-         </div>
-        </fieldset>
-        </form>
+
+</form>
 </body>
-<footer>
-    <fieldset>
+<footer id="copyright">
     <p>Clínica Proyec 2022 </p>
     <p>Todos los derechos reservados </p>
     <p>Bogotá D.C., - Colombia </p>
     <p>Política de tratamientos de datos personales Clínica Proyec </p>
-    </fieldset>
+   
 </footer>    
 </html>
